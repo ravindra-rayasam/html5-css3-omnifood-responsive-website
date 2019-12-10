@@ -6,25 +6,30 @@
     .hero-text {
         width : 100%;
         padding: 0 2%;
-    }    
+    }   
+    h1 {
+        font-size:10px;
+    }
     
 }
 
 /*Small tablets to Big tablet , horizontal view of the big tablet*/
-@media only screen  and (max-width:1023px) {
+@media only screen  and (max-width: 1023px) {
     .body{font-size: 18px;}
     .long-para{
         width:80%;
         padding-left:10%;
     }
+    h1 {
+        font-size:45px;
+    }
     
 }
 
 /* For screns up to widht 767 vertical veiw of the tablets*/
-@media only screen and (max-width:767px) {
-    
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size:18px;
+    }
 }
 /*For small phones up to 480 px*/
-@media only screen and (max-wdith:480px){
-    
-}
